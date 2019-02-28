@@ -31,7 +31,6 @@ jobs:
           name: install dependencies
           command: |
             pipenv install --dev
-            pipenv run pytest {posargs}
 
       - save_cache:
           paths:
@@ -46,7 +45,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            pipenv run pytest {posargs}
+            pipenv run pytest
 
       # - store_artifacts:
       #     path: test-reports
