@@ -31,7 +31,6 @@ jobs:
           name: install dependencies
           command: |
             pipenv install --dev
-            pipenv run pytest {posargs}
 
       - save_cache:
           paths:
