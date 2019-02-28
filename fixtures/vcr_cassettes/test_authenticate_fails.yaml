@@ -1,0 +1,32 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept: ['application/json, text/plain, */*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['68']
+      Content-Type: [application/x-www-form-urlencoded]
+      User-Agent: [python-requests/2.21.0]
+      X-BRING-API-KEY: [cof4Nc6D8saplXjE3h3HXqHH8m7VU2i1Gs0g85Sp]
+      X-BRING-CLIENT: [webApp]
+      X-BRING-CLIENT-INSTANCE-ID: [Web-dbwoh1VmlMaGf7RyIcPnLUnGbyd8iwn2]
+      X-BRING-CLIENT-SOURCE: [webApp]
+      X-BRING-COUNTRY: [DE]
+    method: POST
+    uri: https://api.getbring.com/rest/v2/bringauth
+  response:
+    body: {string: '{"message": "email password combination not existing", "errorcode":
+        200, "access_token": "replaced_access_token", "refresh_token": "replaced_refresh_token",
+        "email": "replaced_email", "name": "replaced_name", "photoPath": "replaced_photoPath"}'}
+    headers:
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Thu, 28 Feb 2019 20:26:46 GMT']
+      Server: [Apache-Coyote/1.1]
+      Vary: [Accept-Encoding]
+      X-Amzn-Trace-Id: [Root=1-5c784406-c00eb410e25bfb5d202902df;]
+      content-length: ['69']
+      transfer-encoding: [chunked]
+    status: {code: 401, message: Unauthorized}
+version: 1

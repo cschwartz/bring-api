@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept: ['application/json, text/plain, */*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['60']
+      Content-Type: [application/x-www-form-urlencoded]
+      User-Agent: [python-requests/2.21.0]
+      X-BRING-API-KEY: [cof4Nc6D8saplXjE3h3HXqHH8m7VU2i1Gs0g85Sp]
+      X-BRING-CLIENT: [webApp]
+      X-BRING-CLIENT-INSTANCE-ID: [Web-dbwoh1VmlMaGf7RyIcPnLUnGbyd8iwn2]
+      X-BRING-CLIENT-SOURCE: [webApp]
+      X-BRING-COUNTRY: [DE]
+    method: POST
+    uri: https://api.getbring.com/rest/v2/bringauth
+  response:
+    body: {string: '{"uuid": "129be135-5164-4613-a023-19320b4a835b", "publicUuid":
+        "0d3fb405-dcc3-4cfb-9d76-fb6978951acc", "email": "replaced_email", "name":
+        "replaced_name", "photoPath": "replaced_photoPath", "bringListUUID": "bd48e47a-65ce-44fc-8789-176c484d544f",
+        "access_token": "replaced_access_token", "refresh_token": "replaced_refresh_token",
+        "token_type": "Bearer", "expires_in": 604740}'}
+    headers:
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Thu, 28 Feb 2019 20:26:45 GMT']
+      Server: [Apache-Coyote/1.1]
+      Set-Cookie: [refresh_token=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjMxMjgxODU2MDUsInByaXZhdGVVdWlkIjoiMTI5YmUxMzUtNTE2NC00NjEzLWEwMjMtMTkzMjBiNGE4MzViIn0.HG2qg-3vuUYbOgbh8KYY_kPhIffSj-wIQTG2ax9MWsa-vaim5hf874meCu1hONwSeC2i85bjkKiVLTWOeybqmA;Version=1;Comment="auth
+          refresh http only";Domain=;Path=/;Max-Age=1576800000;HttpOnly]
+      Vary: [Accept-Encoding]
+      X-Amzn-Trace-Id: [Root=1-5c784405-a108dec0dd3b58a38da3d4d7;]
+      content-length: ['834']
+      transfer-encoding: [chunked]
+    status: {code: 200, message: OK}
+version: 1
